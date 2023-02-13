@@ -1,0 +1,12 @@
+optimizer:
+    weight_decay: 0.0
+    lr: 1e-5 #学習率
+    lr_decay: 0.7
+    bn_momentum: 0.5
+    bnm_decay: 0.5
+    decay_step: 2e4
+
+
+num_points: 50000 #点数
+epochs: 100 #エポック数
+batch_size: 16 #バッチ数
